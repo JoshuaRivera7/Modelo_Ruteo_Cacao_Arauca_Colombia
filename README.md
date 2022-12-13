@@ -13,4 +13,4 @@ A continuación se encuentran enlaces que dirigen al código fuente desarrollado
 - Etapa 1 (Modelo de asignación)
 - Etapa 2 (Métodos de Clustering)
 - Etapa 3 (Modelo de ruteo)
-![](Imgei)
+![](ImDOC/Etapa1_Asignacion.ipynb)
