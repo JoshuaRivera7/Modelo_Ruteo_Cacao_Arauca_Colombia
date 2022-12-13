@@ -15,5 +15,6 @@ A continuación se encuentran enlaces que dirigen al código fuente desarrollado
 - [Etapa 3 (Modelo de ruteo)](Scripts/Etapa3/Etapa3_RuteoCVRP.ipynb)
 
 ## Modelo completo
-Una vez fueron evaluadas cada una de las etapas por separado, se integraron en un mismo modelo que recibe por parámetros las coordenadas y la producción de las fincas, el número de clusters *k* y la capacidad de los camiones *Q*. 
+Una vez fueron evaluadas cada una de las etapas por separado, se integraron en un mismo modelo que recibe por parámetros las coordenadas y la producción de las fincas, el número de clusters *k* y la capacidad de los camiones *Q*. Es importante mencionar que el algoritmo de Partición Alrededor de Medioides fue seleccionado para realizar la clusterización debido a su desempeño en las métricas evaluadas (suma de errores y coeficiente de Silhouette). 
+
 Los resultados para valores de *k={5, 10, 15, 20}* y *Q={16, 28, 40, 52}* se ven en los siguientes enlaces (uno por cada central post cosecha): [Central 1](Scripts/ModeloCompleto/ModeloCompletoC1.ipynb), [Central 2](Scripts/ModeloCompleto/ModeloCompletoC2.ipynb).
