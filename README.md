@@ -15,4 +15,5 @@ A continuación se encuentran enlaces que dirigen al código fuente desarrollado
 - [Etapa 3 (Modelo de ruteo)]()
 
 ## Modelo completo
-Una vez fueron evaluadas cada una de las etapas por separado, se integraron en un mismo modelo que recibe por parámetros las coordenadas y la producción de las fincas, el número de clusters *k* y la capacidad de los camiones *Q*. Los resultados para valores de *k={5, 10, 15, 20}* y *Q={16, 28, 40, 52}* se ven en los siguientes enlaces (uno por cada central post cosecha): [Planta 1](), [Planta 2]().
+Una vez fueron evaluadas cada una de las etapas por separado, se integraron en un mismo modelo que recibe por parámetros las coordenadas y la producción de las fincas, el número de clusters *k* y la capacidad de los camiones *Q*. 
+Los resultados para valores de *k={5, 10, 15, 20}* y *Q={16, 28, 40, 52}* se ven en los siguientes enlaces (uno por cada central post cosecha): [Central 1](), [Central 2]().
