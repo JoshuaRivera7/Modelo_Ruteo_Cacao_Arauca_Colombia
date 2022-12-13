@@ -8,3 +8,9 @@ Se cuentan con las coordenadas reales de la central 1, pero se tienen coordenada
 
 ## Metodología empleada
 La metodología desarrollada consta de 3 etapas principales. Primero, una etapa de asignación de cada finca a una de las dos centrales post cosecha. Segundo, una etapa de clustering en la cual se evaluaron tres algoritmos diferentes. Y tercero, una etapa de ruteo con un modelo clásico de programación lineal.
+
+A continuación se encuentran enlaces que dirigen al código fuente desarrollado en cada una de las etapas junto con los resultados obtenidos:
+- Etapa 1 (Modelo de asignación)
+- Etapa 2 (Métodos de Clustering)
+- Etapa 3 (Modelo de ruteo)
+![](Imgei)
