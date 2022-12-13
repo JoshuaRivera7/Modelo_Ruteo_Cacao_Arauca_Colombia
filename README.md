@@ -10,10 +10,10 @@ Se cuentan con las coordenadas reales de la central 1, pero se tienen coordenada
 La metodología desarrollada consta de 3 etapas. Primero, una etapa de asignación de cada finca a una de las dos centrales post cosecha. Segundo, una etapa de clustering que recibe por parámetro el número *k* de clusters que se deseen generar, etapa en la cual se evaluaron tres algoritmos diferentes. Y tercero, una etapa de ruteo con un modelo clásico de programación lineal que recibe por parámetro la capacidad *Q* de la flota de vehículos que se desea estudiar.
 
 A continuación se encuentran enlaces que dirigen al código fuente desarrollado en cada una de las etapas junto con los resultados obtenidos:
-- [Etapa 1 (Modelo de asignación lineal)](Scripts/Et)
-- [Etapa 2 (Métodos de Clustering)]()
-- [Etapa 3 (Modelo de ruteo)]()
+- [Etapa 1 (Modelo de asignación lineal)](Scripts/Etapa1/Etapa1_Asignacion.ipynb)
+- [Etapa 2 (Métodos de Clustering)](Scripts/Etapa2)
+- [Etapa 3 (Modelo de ruteo)](Scripts/Etapa3/Etapa3_RuteoCVRP.ipynb)
 
 ## Modelo completo
 Una vez fueron evaluadas cada una de las etapas por separado, se integraron en un mismo modelo que recibe por parámetros las coordenadas y la producción de las fincas, el número de clusters *k* y la capacidad de los camiones *Q*. 
-Los resultados para valores de *k={5, 10, 15, 20}* y *Q={16, 28, 40, 52}* se ven en los siguientes enlaces (uno por cada central post cosecha): [Central 1](), [Central 2]().
+Los resultados para valores de *k={5, 10, 15, 20}* y *Q={16, 28, 40, 52}* se ven en los siguientes enlaces (uno por cada central post cosecha): [Central 1](Scripts/ModeloCompleto/ModeloCompletoC1.ipynb), [Central 2](Scripts/ModeloCompleto/ModeloCompletoC2.ipynb).
